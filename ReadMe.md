@@ -12,7 +12,7 @@ make sure you do not go too fast and leave the visible area.
 
 ## Installation
 
-A binary version compiled for Windows 10 can be downloaded [here](https://github.com/8too/MandelVR/tree/binaries/MandelVR.zip).
+A binary version compiled for Windows 10 can be downloaded [here](https://github.com/8too/MandelVR/raw/master/binaries/MandelVR.zip).
 
 ## Building from Source
 
