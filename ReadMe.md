@@ -7,8 +7,8 @@ other configurations may or may not be supported.
 ## Usage
 
 Use the Controller joystick to move the camera in the direction in which the controller
-is pointing. Press B to zoom in and A to zoom out. The camera accelerates over time so
-make sure you do not go too fast and leave the visible area.
+is pointing. Press B on the Controller to zoom in and A to zoom out. The camera accelerates
+over time so make sure you do not go too fast and leave the visible area.
 
 ## Installation
 
