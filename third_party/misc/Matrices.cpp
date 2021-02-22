@@ -21,7 +21,7 @@
 #include "Matrices.h"
 
 const float DEG2RAD = 3.141593f / 180;
-const float EPSILON = 0.0000001f;
+const float EPSILON = 1e-20f; // 0.0000001f;
 
 
 

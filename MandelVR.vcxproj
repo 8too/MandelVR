@@ -67,7 +67,7 @@
     <PostBuildEvent>
       <Command>copy $(SolutionDir)third_party\openvr\bin\win64\openvr_api.dll $(SolutionDir)$(Platform)\$(Configuration)\
 copy $(SolutionDir)third_party\sdl2-2.0.3\SDL2.dll $(SolutionDir)$(Platform)\$(Configuration)\
-Xcopy /E $(SolutionDir)shaders $(SolutionDir)$(Platform)\$(Configuration)\shaders\</Command>
+Xcopy /E /Y $(SolutionDir)shaders $(SolutionDir)$(Platform)\$(Configuration)\shaders\</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -93,7 +93,7 @@ Xcopy /E $(SolutionDir)shaders $(SolutionDir)$(Platform)\$(Configuration)\shader
     <PostBuildEvent>
       <Command>copy $(SolutionDir)third_party\openvr\bin\win64\openvr_api.dll $(SolutionDir)$(Platform)\$(Configuration)\
 copy $(SolutionDir)third_party\sdl2-2.0.3\SDL2.dll $(SolutionDir)$(Platform)\$(Configuration)\
-Xcopy /E $(SolutionDir)shaders $(SolutionDir)$(Platform)\$(Configuration)\shaders\</Command>
+Xcopy /E /Y $(SolutionDir)shaders $(SolutionDir)$(Platform)\$(Configuration)\shaders\</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>

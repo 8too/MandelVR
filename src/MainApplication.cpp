@@ -554,7 +554,6 @@ bool MainApplication::HandleInput() {
         // Increase max level
         maxLevel_ =
             8 + static_cast<int>(std::floor(-std::log2(*magnification_.get())));
-        maxLevel_ = min(maxLevel_, 127);
 
         UpdateLodLevels();
       }
@@ -578,7 +577,6 @@ bool MainApplication::HandleInput() {
         // Decrease max level
         maxLevel_ =
             8 + static_cast<int>(std::floor(-std::log2(*magnification_.get())));
-        maxLevel_ = min(maxLevel_, 127);
 
         UpdateLodLevels();
       }
