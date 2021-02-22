@@ -166,7 +166,7 @@ bool MainApplication::BInit() {
   mandelResolution_ = 500;
 
   nearClip_ = 0.1f;
-  farClip_ = 30.0f;
+  farClip_ = 3000.0f;
 
   vertCount_ = 0;
 
